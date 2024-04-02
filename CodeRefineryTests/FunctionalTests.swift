@@ -25,5 +25,12 @@ final class FunctionalTests: XCTestCase {
         let childPerson = Person(name: "Alice", age: 10)
         XCTAssertFalse(childPerson.isAdult())
     }
+    
+    func testSquare() {
+        XCTAssertEqual(square(0), 0)
+        XCTAssertEqual(square(1), 1)
+        XCTAssertEqual(square(5), 25)
+        XCTAssertEqual(square(10), 100)
+    }
 
 }

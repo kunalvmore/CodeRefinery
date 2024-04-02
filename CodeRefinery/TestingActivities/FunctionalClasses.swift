@@ -16,3 +16,9 @@ struct Person {
         return age >= 18
     }
 }
+
+// A Utility function that calculates the square of a number.
+func square(_ number: Int) -> Int {
+    return number * number
+}
+
