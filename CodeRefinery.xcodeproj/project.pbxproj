@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B64564D2BBC647B001719CB /* FunctionalClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B64564C2BBC647B001719CB /* FunctionalClasses.swift */; };
+		1B64564F2BBC7803001719CB /* FunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B64564E2BBC7803001719CB /* FunctionalTests.swift */; };
 		1B6869D32BBB3ED0007CA543 /* FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6869D22BBB3ED0007CA543 /* FactorialTests.swift */; };
 		1B76118F2BB83538001CC620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B76118E2BB83538001CC620 /* AppDelegate.swift */; };
 		1B7611912BB83538001CC620 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7611902BB83538001CC620 /* SceneDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B64564C2BBC647B001719CB /* FunctionalClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalClasses.swift; sourceTree = "<group>"; };
+		1B64564E2BBC7803001719CB /* FunctionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalTests.swift; sourceTree = "<group>"; };
 		1B6869D22BBB3ED0007CA543 /* FactorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialTests.swift; sourceTree = "<group>"; };
 		1B76118B2BB83538001CC620 /* CodeRefinery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeRefinery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B76118E2BB83538001CC620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B64564B2BBC6419001719CB /* TestingActivities */ = {
+			isa = PBXGroup;
+			children = (
+				1B64564C2BBC647B001719CB /* FunctionalClasses.swift */,
+			);
+			path = TestingActivities;
+			sourceTree = "<group>";
+		};
 		1B7611822BB83538001CC620 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		1B76118D2BB83538001CC620 /* CodeRefinery */ = {
 			isa = PBXGroup;
 			children = (
+				1B64564B2BBC6419001719CB /* TestingActivities */,
 				1B76118E2BB83538001CC620 /* AppDelegate.swift */,
 				1B7611902BB83538001CC620 /* SceneDelegate.swift */,
 				1B7611922BB83538001CC620 /* ViewController.swift */,
@@ -117,6 +130,7 @@
 			children = (
 				1B7611A52BB8353A001CC620 /* CodeRefineryTests.swift */,
 				1B6869D22BBB3ED0007CA543 /* FactorialTests.swift */,
+				1B64564E2BBC7803001719CB /* FunctionalTests.swift */,
 			);
 			path = CodeRefineryTests;
 			sourceTree = "<group>";
@@ -264,6 +278,7 @@
 				1B7611932BB83538001CC620 /* ViewController.swift in Sources */,
 				1B76118F2BB83538001CC620 /* AppDelegate.swift in Sources */,
 				1B7611912BB83538001CC620 /* SceneDelegate.swift in Sources */,
+				1B64564D2BBC647B001719CB /* FunctionalClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7611A62BB8353A001CC620 /* CodeRefineryTests.swift in Sources */,
+				1B64564F2BBC7803001719CB /* FunctionalTests.swift in Sources */,
 				1B6869D32BBB3ED0007CA543 /* FactorialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
